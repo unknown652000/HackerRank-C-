@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 void DesignerPDF(int list[],string word){
     int i,max=1;
     for(i=0;i<word.length();i++){
@@ -10,7 +9,6 @@ void DesignerPDF(int list[],string word){
     }
     cout << max*word.length() << endl;
 }
-
 int main(){
     int i,list[26];
     for(i=0;i<26;i++){
@@ -21,4 +19,3 @@ int main(){
     DesignerPDF(list,word);
     return 0;
 }
-
