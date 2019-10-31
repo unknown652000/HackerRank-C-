@@ -1,7 +1,6 @@
 #include<iostream>
 #include<cstdlib>
 using namespace std;
-
 void CatsAndMouse(int x, int y, int z){
 	x = abs(x-z);
 	y = abs(y-z);
@@ -21,7 +20,6 @@ int main(){
 		cin >> a >> b >> c;
 		CatsAndMouse(a,b,c);
 	}
-
 	return 0;
 }
 
